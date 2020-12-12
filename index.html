@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проектные решения любой сложности</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <a href="#" class="header-logo">
+                    <img src="image/logo.png" alt="Logotip" class="header-logo-img">
+                </a>
+                <div class="header-wrap">
+                    <nav class="header-list-wrap">
+                        <ul class="header-list">
+                            <li class="header-links">
+                                <a href="#" class="header-link">О нас</a>
+                            </li>
+                            <li class="header-links">
+                                <a href="#" class="header-link">Проекты</a>
+                            </li>
+                            <li class="header-links">
+                                <a href="#" class="header-link">Этапы</a>
+                            </li>
+                            <li class="header-links">
+                                <a href="#" class="header-link">Отзывы</a>
+                            </li>
+                            <li class="header-links">
+                                <a href="#" class="header-link">Контакты</a>
+                            </li>
+                        </ul>
+                        <button aria-label="найти" class="header-button-search">
+              <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="18.5138" y="18.5495" width="8" height="2" transform="rotate(45 18.5138 18.5495)"
+                  fill="#333333" />
+                <circle cx="11.5" cy="11.5" r="10.5" stroke="#333333" stroke-width="2" />
+              </svg>
+            </button>
+                        <button aria-label="меню" id="burger" class="header-button-burger">
+              <svg width="30" height="23" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="30" height="3" fill="#333333" />
+                <rect y="10" width="30" height="3" fill="#333333" />
+                <rect y="20" width="30" height="3" fill="#333333" />
+              </svg>
+            </button>
+                    </nav>
+                    <nav id="menu" class="menu-mobil">
+                        <a href="#" class="header-logo logo-mobil">
+                            <img src="image/logo.png" alt="Logotip" class="header-logo-img img-mobil">
+                        </a>
+                        <button id="but-mob" class="but-mobail"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect x="2.09094" width="29.5699" height="2.95699" transform="rotate(45 2.09094 0)" fill="#333333" />
+                <rect y="20.9091" width="29.5699" height="2.95699" transform="rotate(-45 0 20.9091)" fill="#333333" />
+              </svg>
+
+            </button>
+                        <ul class="header-list-mobail">
+                            <li class="header-links-mobail">
+                                <a href="#" class="header-link-mobail">О нас</a>
+                            </li>
+                            <li class="header-links-mobail">
+                                <a href="#" class="header-link-mobail">Проекты</a>
+                            </li>
+                            <li class="header-links-mobail">
+                                <a href="#" class="header-link-mobail">Этапы</a>
+                            </li>
+                            <li class="header-links-mobail">
+                                <a href="#" class="header-link-mobail">Отзывы</a>
+                            </li>
+                            <li class="header-links-mobail">
+                                <a href="#" class="header-link-mobail">Контакты</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-hero">
+            <div class="container wrapper-hero">
+                <!--<div class="hero-container">-->
+
+                <!-- <div class="section-hero-btn-slaider">
+                        <button aria-label="далее" href="#" class="section-hero-btn-slaider1"></button>
+                        <button aria-label="далее" href="#" class="section-hero-btn-slaider1"></button>
+                        <button aria-label="далее" href="#" class="section-hero-btn-slaider1"></button>
+                    </div>-->
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide slide1">
+                            <div class="hero-container-wrap">
+                                <h1 class="section-hero-title">
+                                    Проектные решения любой сложности
+                                </h1>
+                                <p class="section-hero-discription">
+                                    Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+                                </p>
+                                <button aria-label="заказать расчет" href="#" class="btn section-hero-btn">Заказать
+                  расчёт</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <div class="hero-container-wrap">
+                                <h1 class="section-hero-title">
+                                    Проектные решения любой сложности
+                                </h1>
+                                <p class="section-hero-discription">
+                                    Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+                                </p>
+                                <button aria-label="заказать расчет" href="#" class="btn section-hero-btn">Заказать
+                  расчёт</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide3">
+                            <div class="hero-container-wrap">
+                                <h1 class="section-hero-title">
+                                    Проектные решения любой сложности
+                                </h1>
+                                <p class="section-hero-discription">
+                                    Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+                                </p>
+                                <button aria-label="заказать расчет" href="#" class="btn section-hero-btn">Заказать
+                  расчёт</button>
+                            </div>
+                        </div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+
+                </div>
+            </div>
+
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about-wrap">
+                    <div class="about-discription">
+                        <h2 class="about-title">
+                            О нас
+                        </h2>
+                        <p class="about-paragraf">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий <br>с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы
+                            связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить,
+                            что высококачественный прототип <span class="paragraf-svg">
+                <svg class="paragraf-svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
+                    fill="#FF9900" />
+                  <path
+                    d="M7.26154 6.4551H8.73846V13H7.26154V6.4551ZM8 4.90259C7.71282 4.90259 7.4718 4.81126 7.27692 4.62861C7.09231 4.44597 7 4.22273 7 3.9589C7 3.69508 7.09231 3.47184 7.27692 3.28919C7.4718 3.0964 7.71282 3 8 3C8.28718 3 8.52308 3.09132 8.70769 3.27397C8.90256 3.44647 9 3.66464 9 3.92846C9 4.20243 8.90256 4.43582 8.70769 4.62861C8.52308 4.81126 8.28718 4.90259 8 4.90259Z"
+                    fill="white" />
+                </svg>
+              </span> будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению
+                            качества экспериментов.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-detailed">
+                    <div class="about-foto-wrap">
+                        <div class="about-fot">
+                            <img aria-label="фотография рабочего" class="about-fot1" src="image/Rectangle2.jpg" alt="">
+                            <div class="about-text-box">
+                                <p class="about-text-paragraf">
+                                    Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.
+                                </p>
+                                <button aria-label="подробнее" href="#" class="btn about-text-btn">Подробнее</button>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <ul class="about-list">
+                        <li class="about-link">
+                            <button aria-label="подробнее" href="#" class="btn about-text-btn-mob">Подробнее</button>
+                            <img class="about-link-img" src="image/Group25.png" alt="">
+                            <div class="about-box">
+                                <h3 class="titleh3">
+                                    Консультация с широким активом
+                                </h3>
+                                <p class="about-link-paragraf">
+                                    А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="about-link">
+                            <img class="about-link-img" src="image/Group24.png" alt="">
+                            <div class="about-box2">
+                                <h3 class="titleh3">
+                                    В своём стремлении повысить
+                                </h3>
+                                <p class="about-link-paragraf">
+                                    Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="function">
+            <div class="container function-container">
+                <div class="function-discription">
+                    <h2 class="about-title about-title-mbl">
+                        Как мы работаем
+                    </h2>
+                    <nav class="function-nav">
+                        <ul class="function-list">
+                            <li class="function-links">
+                                <button aria-label="первый шаг" href="#" class="function-link">1 Шаг</button>
+                            </li>
+                            <li class="function-links">
+                                <button aria-label="второй шаг" href="#" class="function-link">2 Шаг</button>
+                            </li>
+                            <li class="function-links">
+                                <button aria-label="третий шаг" href="#" class="function-link">3 Шаг</button>
+                            </li>
+                            <li class="function-links">
+                                <button aria-label="четвертый шаг" href="#" class="function-link">4 Шаг</button>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="function-text function-text-mobil">
+                        <h3 class="titleh3 titleh4">
+                            Проводим консультацию
+                        </h3>
+                        <p class="about-link-paragraf">
+                            Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители
+                            современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+                            подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны
+                            к ответу.
+                        </p>
+                        <button aria-label="подробнее" href="#" class="btn function-text-btn1">Подробнее</button>
+                        <button aria-label="договор" href="#" class="btn function-text-btn2">Договор</button>
+                    </div>
+                </div>
+                <img class="function-rectangle" src="image/Rectangle18.jpg" alt="">
+
+            </div>
+
+        </section>
+        <section class="question">
+            <div class="container question-container">
+                <h3 class="about-list-title question-title">
+                    Часто задаваемые вопросы
+                </h3>
+                <div id="accordion" class="ui-accordion">
+
+                    <h3 class="ui-accordion-header ui-accordion-header-active ui-accordion-header-collapsed question-link
+                    ">Из чего формируется конечная стоимость проекта?
+                    </h3>
+                    <div>
+
+                        <p>
+                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum
+                            a velit eu ante scelerisque vulputate.
+                        </p>
+
+                    </div>
+                    <h3 class="ui-accordion-header ui-accordion-header-active ui-accordion-header-collapsed">У меня есть свой проект. Сможем ли мы его доработать / реализовать?
+                    </h3>
+                    <div>
+                        <p>
+                            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna.
+                        </p>
+                    </div>
+                    <h3 class="ui-accordion-header ui-accordion-header-active ui-accordion-header-collapsed">Я выбираю между разными компаниями. В чём ваше отличие?
+                    </h3>
+                    <div>
+                        <p>
+                            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam
+                            nisi, eu iaculis leo purus venenatis dui.
+                        </p>
+                        <ul>
+                            <li>List item one</li>
+                            <li>List item two</li>
+                            <li>List item three</li>
+                        </ul>
+                    </div>
+                    <h3 class="ui-accordion-header ui-accordion-header-active ui-accordion-header-collapsed">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?
+                    </h3>
+                    <div>
+                        <p>
+                            Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est.
+                        </p>
+                        <p>
+                            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p>
+                    </div>
+                    <h3 class="ui-accordion-header ui-accordion-header-active ui-accordion-header-collapsed">Могу ли я вернуть деньги на каком-либо из этапов работ?
+                    </h3>
+                    <div>
+
+                        <p>
+                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum
+                            a velit eu ante scelerisque vulputate.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-wrap">
+                <div class="footer-left">
+                    <a href="#" class="footer-logo">
+                        <img src="image/logofooter.png" alt="Logo">
+                    </a>
+                    <p class="footer-left-paragraf">
+                        Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом
+                        обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.
+                    </p>
+                    <div class="footer-left-social">
+                        <a href="#" class="footer-left-social-link"><img src="image/fb.png" alt=""></a>
+                        <a href="#" class="footer-left-social-link"><img src="image/vk.png" alt=""></a>
+                        <a href="#" class="footer-left-social-link"><img src="image/instagram.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <h3 class="about-list-title footer-title">
+                        Оставить заявку
+                    </h3>
+                    <form action="send.php" method="post" class="contacts-form">
+                        <input aria-label="введите фамилию имя отчество" type="text" name="fio" class="input input-name" placeholder="Фамилия, имя и отчество*">
+                        <input type="email" name="email" class="input input-tmail" placeholder="E-mail*">
+                        <input type="text" name="tel" class="input input-text" placeholder="Сообщение*">
+
+                        <div class="form-button-hek">
+                            <input type="submit" value="Отправить данные" class="btn form-button">
+                            <div class="input-check-1">
+                                <input class="input-cb1" type="checkbox" id="cb1"> <label for="cb1">Согласен на
+                  обработку
+                  данных</label>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="footer-right">
+                    <nav class="footer-nav">
+                        <ul class="footer-list">
+                            <li class="footer-links">
+                                <a href="" class="footer-link">О нас</a>
+                            </li>
+                            <li class="footer-links">
+                                <a href="" class="footer-link">Проекты</a>
+                            </li>
+                            <li class="footer-links">
+                                <a href="" class="footer-link">Отзывы</a>
+                            </li>
+                            <li class="footer-links">
+                                <a href="" class="footer-link">Договор оферты</a>
+                            </li>
+                            <li class="footer-links">
+                                <a href="" class="footer-link">Договор подряда</a>
+                            </li>
+                            <li class="footer-links">
+                                <a href="" class="footer-link">Конфиденциальность</a>
+                            </li>
+                            <li class="footer-links">
+                                <a href="" class="footer-link">Партнёрское соглашение</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            speed: 300,
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+
+        })
+    </script>
+    <script>
+        $(function() {
+            $("#accordion").accordion({
+                collapsible: true
+            });
+        });
+    </script>
+</body>
+
+</html>
